@@ -1,0 +1,260 @@
+.block-1{
+    padding: 0;
+} 
+.block-1 h1{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #ff9900;
+}
+.block-1 .container-1{
+    height: 351px;
+    background: url(../img/top-bg.jpg) 50% 0 no-repeat;
+}
+.block-1 .container-1 .sale{
+    padding: 20px 0 0 70px;
+    font-size: 30px;
+    line-height: 1.4em;
+    font-weight: 700;
+    color: #a91f97;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.block-1 .container-1 .sale>strong{
+    font-size: 60px;
+}
+.block-1 .container-2{
+    padding: 10px 0;
+    background: #741167;
+}
+.cost{
+    width: 400px;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    font-size: 18px;
+    background: #c14fb2;
+    border-radius: 12px;
+}
+.cost>span{
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 5px 10px;
+    text-align: center;
+}
+.cost span.new-cost{
+    background: #fff;
+}
+.cost>span span{
+    display: inline-block;
+    font-size: 40px;
+    line-height: 1em;
+    font-weight: 700;
+}
+.cost span.old-cost{
+    color: #fff;
+}
+.cost span.old-cost>span{
+    text-decoration: line-through;
+}
+.video{
+    padding: 0;
+}
+.video .video-container{
+    position: relative;
+    width: 480px;
+    height: 350px;
+    overflow: hidden;
+    background: #000;
+}
+.video .video-container iframe, .video .video-container object, .video .video-container embed{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.block-2 .about{
+    text-align: justify;
+    font-size: 24px;
+    line-height: 1.5em;
+    margin: 0 15px 0 15px;
+}
+
+.block-2 img{
+    margin: 0 0 0 0;
+}
+
+.block-3{
+    color: #fff;
+    background: #212121;
+}
+.block-3 .clothes>li{
+    float: left;
+    width: 50%;
+    margin: 0 0 30px;
+    text-align: center;
+}
+.block-3 .clothes>li img{
+    display: block;
+    margin: 0 auto 10px;
+}
+.block-3 .clothes>li p{
+    font-size: 18px;
+}
+.block-3 .text{
+    padding: 10px 0 0;
+    font-size: 20px;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.block-4{
+    height: 610px;
+    padding-top: 20px;
+    background: url(../img/bg-2.jpg) 50% 0 no-repeat;
+}
+.block-4 .title{
+    color: #fff;
+    font-size: 28px;
+}
+.block-4 .advant>li{
+    float: left;
+    width: 50%;
+    height: 180px;
+    padding: 78px 15px 0;
+    margin: 0 0 20px;
+    line-height: 1.4em;
+    text-align: center;
+}
+.block-9{
+    background: url(../img/rep-bg.jpg) repeat;
+}
+.block-9 .use{
+    padding: 190px 40px 0;
+    background: url(../img/bg-3.jpg) 50% 0 no-repeat;
+}
+.block-9 .use>li{
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    font-size: 22px;
+    line-height: 1.1em;
+    border-bottom: 1px dashed #aaa;
+}
+.block-10{
+    color: #fff;
+    background: url(../img/bg-4.jpg) 50% 0 no-repeat;
+}
+.block-10 .safe{
+    padding: 0 20px 10px;
+    font-size: 21px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.block-5{
+    background: url(../img/rep-bg.jpg) repeat;
+}
+.block-5 .deliv{
+    padding: 0 10px;
+}
+.block-5 .deliv>li{
+    margin: 50px 0 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.block-5 .deliv>li:before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: -50px auto 15px;
+    background: url(../img/del-icon.png) no-repeat;
+}
+.block-5 .deliv>li:nth-child(1):before{
+    background-position: 0 0;
+}
+.block-5 .deliv>li:nth-child(2):before{
+    background-position: -100px 0;
+}
+.block-5 .deliv>li:nth-child(3):before{
+    background-position: -200px 0;
+}
+.block-5 .deliv>li h4{
+    padding: 0 0 5px;
+    font-size: 18px;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.block-6{
+    padding: 40px 0;
+}
+.block-6 .rev-slider{
+    position: relative;
+}
+.block-6 .rev-item{
+    float: left;
+    margin: 0 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.block-6 .rev-item>img{
+    display: block;
+    margin: 0 auto 20px;
+}
+.block-6 .rev-item>h4{
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+.block-6 .rev-item>p{
+    padding: 0 20px;
+    text-align: justify;
+}
+.block-8{
+    padding: 0;
+}
+.block-8 .title{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    color: #000;
+    background: #ff9900;
+}
+.block-8 .container-1{
+    height: 500px;
+    background: url(../img/foot-bg.jpg) 50% 0 no-repeat;
+}
+.block-8 .container-2{
+    padding: 40px 10px;
+    background: url(../img/bg-4.jpg) 50% 0 no-repeat #741167;
+}
+.block-8 .timer{
+    padding: 0 0 25px;
+    color: #fff;
+    text-align: center;
+}
+.block-8 .timer h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.block-8 .order{
+    padding: 20px 0;
+}
+.copyright{
+    padding: 20px 0;
+    text-align: center;
+}
